@@ -4,6 +4,7 @@
  */
 
 #include "openWrap.h"
+#include <stdio.h>
 
 int wOpen(char *fName)
 {
