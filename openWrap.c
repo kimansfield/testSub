@@ -7,6 +7,7 @@
 
 int wOpen(char *fName)
 {
+    printf("We are opening file %s\n",fName);
     return open(fName, O_RDONLY);
 }
 
